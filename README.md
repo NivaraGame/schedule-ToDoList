@@ -1,6 +1,6 @@
 # Schedule+To-Do List
 
-# Used technologies
+## Used technologies
 
 1. Frontend
     * React
