@@ -1,3 +1,18 @@
+# Schedule+To-Do List
+
+# Used technologies
+
+1. Frontend
+    * React
+    * CSS
+
+2. Backend
+    * Node.js
+    * JWT
+
+3. Database
+    * MongoDB
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
