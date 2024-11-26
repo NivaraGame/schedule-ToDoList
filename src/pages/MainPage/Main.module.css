@@ -1,0 +1,49 @@
+.greeting_card {
+    display: flex;
+    height: 250px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FB8500;
+}
+
+.greeting_label {
+    font-size: xx-large;
+}
+
+
+/* Endless row styles */
+.marquee {
+    position: relative;
+    overflow: hidden; /* Hide content outside the container */
+    white-space: nowrap; /* Prevent text wrapping */
+    width: 100%; /* Full width container */
+    height: 50px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Optional: background for visibility */
+    display: flex;
+    align-items: center; /* Vertically center the text */
+}
+
+.marquee_content {
+    display: inline-block;
+    padding-left: 100%; /* Start the text off-screen */
+    animation: scroll 10s linear infinite; /* Animation for scrolling */
+    font-size: 20px; /* Adjust text size as needed */
+    color: #333; /* Optional: text color */
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0); /* Start at the right edge */
+    }
+    to {
+        transform: translateX(-100%); /* Move left completely */
+    }
+}
+
+/* Statistic styles */
+.statistic_bar {
+    display: flex;
+    background: black;
+    height: 100vh;
+}

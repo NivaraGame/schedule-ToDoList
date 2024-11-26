@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    align-items: stretch;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    background-color: #219EBC;
+}
+
+.right_end {
+    margin-left: auto;
+    padding-top: auto;
+    background-color: #023047;
+}
+
+li {
+    display: flex;
+    align-items: center; 
+    background: #219EBC;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+li:hover {
+    transition: 0.3s;
+    background-color: black;
+}
+
+li a {
+    display: flex; /* Make the <a> a flex container */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    height: 100%; /* Ensure <a> takes full height of its parent */
+    width: 100%; /* Ensure <a> takes full width of its parent */
+    text-decoration: none; /* Optional: Remove underline from links */
+    color: #fff; /* Optional: Define text color */
+}
